@@ -1,0 +1,1734 @@
+{
+  "paths": [
+    {
+      "id": "data-analytics",
+      "title": "Data Analytics",
+      "description": "Learn data analysis, visualization and database tools to become a data analyst.",
+      "icon": "📊",
+      "skills": [
+        "Excel",
+        "SQL",
+        "Power BI",
+        "Statistics"
+      ]
+    },
+    {
+      "id": "data-science",
+      "title": "Data Science",
+      "description": "Master machine learning, statistics, and Python to become a data scientist.",
+      "icon": "🤖",
+      "skills": [
+        "Python",
+        "ML",
+        "Statistics",
+        "SQL"
+      ]
+    }
+  ],
+  "skills": {
+    "Excel": {
+      "id": "excel",
+      "title": "Excel",
+      "icon": "📗",
+      "totalDays": 7,
+      "days": [
+        {
+          "day": 1,
+          "topic": "Introduction to Excel",
+          "subtopics": [
+            "Excel Interface",
+            "Workbook & Worksheet",
+            "Data Types in Excel",
+            "Basic Operations"
+          ],
+          "task": "Create a new workbook and enter sample data."
+        },
+        {
+          "day": 2,
+          "topic": "Formulas & Functions",
+          "subtopics": [
+            "SUM, AVERAGE, COUNT",
+            "IF Function",
+            "VLOOKUP",
+            "Conditional Formatting"
+          ],
+          "task": "Build a sales tracking sheet with formulas."
+        },
+        {
+          "day": 3,
+          "topic": "Data Sorting & Filtering",
+          "subtopics": [
+            "Sort Data",
+            "AutoFilter",
+            "Custom Filter",
+            "Advanced Filter"
+          ],
+          "task": "Filter a dataset to find top 10 sales records."
+        },
+        {
+          "day": 4,
+          "topic": "Charts & Visualization",
+          "subtopics": [
+            "Bar Chart",
+            "Line Chart",
+            "Pie Chart",
+            "Chart Formatting"
+          ],
+          "task": "Create a dashboard with 3 different chart types."
+        },
+        {
+          "day": 5,
+          "topic": "Pivot Tables",
+          "subtopics": [
+            "Create Pivot Table",
+            "Pivot Chart",
+            "Slicers",
+            "Grouping Data"
+          ],
+          "task": "Analyze sales data using a pivot table."
+        },
+        {
+          "day": 6,
+          "topic": "Data Validation & Protection",
+          "subtopics": [
+            "Data Validation Rules",
+            "Drop-down Lists",
+            "Sheet Protection",
+            "Workbook Password"
+          ],
+          "task": "Create a form with validated input fields."
+        },
+        {
+          "day": 7,
+          "topic": "Advanced Excel",
+          "subtopics": [
+            "INDEX & MATCH",
+            "Array Formulas",
+            "Power Query Intro",
+            "Macros Basics"
+          ],
+          "task": "Build an automated monthly report template."
+        }
+      ]
+    },
+    "SQL": {
+      "id": "sql",
+      "title": "SQL",
+      "icon": "🗄️",
+      "totalDays": 7,
+      "days": [
+        {
+          "day": 1,
+          "topic": "SQL Basics",
+          "subtopics": [
+            "SELECT Statement",
+            "WHERE Clause",
+            "ORDER BY",
+            "LIMIT"
+          ],
+          "task": "Write a query to fetch top 5 records from a table."
+        },
+        {
+          "day": 2,
+          "topic": "Filtering & Functions",
+          "subtopics": [
+            "AND, OR, NOT",
+            "LIKE & Wildcards",
+            "IN, BETWEEN",
+            "NULL Handling"
+          ],
+          "task": "Query employees with salary between 50k–80k."
+        },
+        {
+          "day": 3,
+          "topic": "Aggregate Functions",
+          "subtopics": [
+            "COUNT, SUM, AVG",
+            "MIN & MAX",
+            "GROUP BY",
+            "HAVING"
+          ],
+          "task": "Find average salary per department."
+        },
+        {
+          "day": 4,
+          "topic": "JOINs",
+          "subtopics": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "task": "Join orders and customers tables to list customer orders."
+        },
+        {
+          "day": 5,
+          "topic": "Subqueries & CTEs",
+          "subtopics": [
+            "Subquery in SELECT",
+            "Subquery in WHERE",
+            "WITH Clause (CTE)",
+            "Nested Subqueries"
+          ],
+          "task": "Find employees earning more than average using subquery."
+        },
+        {
+          "day": 6,
+          "topic": "DDL & DML",
+          "subtopics": [
+            "CREATE TABLE",
+            "INSERT, UPDATE, DELETE",
+            "ALTER TABLE",
+            "DROP & TRUNCATE"
+          ],
+          "task": "Create and populate a products table."
+        },
+        {
+          "day": 7,
+          "topic": "Indexes & Optimization",
+          "subtopics": [
+            "CREATE INDEX",
+            "Query Optimization",
+            "EXPLAIN Plan",
+            "Views"
+          ],
+          "task": "Optimize a slow-running query using indexing."
+        }
+      ]
+    },
+    "Python": {
+      "id": "python",
+      "title": "Python",
+      "icon": "🐍",
+      "totalDays": 7,
+      "days": [
+        {
+          "day": 1,
+          "topic": "Python Basics",
+          "subtopics": [
+            "Variables & Data Types",
+            "Operators",
+            "Input/Output",
+            "Type Conversion"
+          ],
+          "task": "Write a program to calculate BMI."
+        },
+        {
+          "day": 2,
+          "topic": "Control Flow",
+          "subtopics": [
+            "if/elif/else",
+            "for Loop",
+            "while Loop",
+            "break & continue"
+          ],
+          "task": "Build a number guessing game."
+        },
+        {
+          "day": 3,
+          "topic": "Functions & Modules",
+          "subtopics": [
+            "def Functions",
+            "Args & Kwargs",
+            "Lambda Functions",
+            "Importing Modules"
+          ],
+          "task": "Create a module with 5 utility functions."
+        },
+        {
+          "day": 4,
+          "topic": "Data Structures",
+          "subtopics": [
+            "Lists",
+            "Tuples",
+            "Dictionaries",
+            "Sets"
+          ],
+          "task": "Build a student grade tracker using dictionaries."
+        },
+        {
+          "day": 5,
+          "topic": "File Handling & OOP",
+          "subtopics": [
+            "Read/Write Files",
+            "Classes & Objects",
+            "Inheritance",
+            "Encapsulation"
+          ],
+          "task": "Create a bank account class with transactions."
+        },
+        {
+          "day": 6,
+          "topic": "NumPy & Pandas",
+          "subtopics": [
+            "NumPy Arrays",
+            "Pandas DataFrame",
+            "Data Cleaning",
+            "GroupBy"
+          ],
+          "task": "Analyze a CSV dataset with Pandas."
+        },
+        {
+          "day": 7,
+          "topic": "Data Visualization",
+          "subtopics": [
+            "Matplotlib",
+            "Seaborn",
+            "Plotly Basics",
+            "Dashboard Creation"
+          ],
+          "task": "Create 3 visualizations from a real dataset."
+        }
+      ]
+    },
+    "ML": {
+      "id": "ml",
+      "title": "Machine Learning",
+      "icon": "🧠",
+      "totalDays": 7,
+      "days": [
+        {
+          "day": 1,
+          "topic": "ML Introduction",
+          "subtopics": [
+            "What is ML?",
+            "Types of ML",
+            "ML Workflow",
+            "scikit-learn Intro"
+          ],
+          "task": "Set up a basic ML pipeline."
+        },
+        {
+          "day": 2,
+          "topic": "Linear Regression",
+          "subtopics": [
+            "Simple Linear Regression",
+            "Multiple Regression",
+            "Cost Function",
+            "Gradient Descent"
+          ],
+          "task": "Predict house prices using linear regression."
+        },
+        {
+          "day": 3,
+          "topic": "Classification",
+          "subtopics": [
+            "Logistic Regression",
+            "Decision Trees",
+            "KNN",
+            "Confusion Matrix"
+          ],
+          "task": "Classify emails as spam or not spam."
+        },
+        {
+          "day": 4,
+          "topic": "Model Evaluation",
+          "subtopics": [
+            "Train/Test Split",
+            "Cross Validation",
+            "Accuracy, Precision, Recall",
+            "ROC Curve"
+          ],
+          "task": "Evaluate 3 models on the same dataset."
+        },
+        {
+          "day": 5,
+          "topic": "Ensemble Methods",
+          "subtopics": [
+            "Random Forest",
+            "Gradient Boosting",
+            "XGBoost",
+            "Bagging vs Boosting"
+          ],
+          "task": "Compare Random Forest vs XGBoost on Titanic dataset."
+        },
+        {
+          "day": 6,
+          "topic": "Unsupervised Learning",
+          "subtopics": [
+            "K-Means Clustering",
+            "PCA",
+            "Dimensionality Reduction",
+            "DBSCAN"
+          ],
+          "task": "Segment customers using K-Means."
+        },
+        {
+          "day": 7,
+          "topic": "Deep Learning Intro",
+          "subtopics": [
+            "Neural Networks",
+            "Activation Functions",
+            "Backpropagation",
+            "Keras Intro"
+          ],
+          "task": "Build a simple neural network for digit recognition."
+        }
+      ]
+    },
+    "Statistics": {
+      "id": "statistics",
+      "title": "Statistics",
+      "icon": "📈",
+      "totalDays": 5,
+      "days": [
+        {
+          "day": 1,
+          "topic": "Descriptive Statistics",
+          "subtopics": [
+            "Mean, Median, Mode",
+            "Variance & Std Dev",
+            "Percentiles",
+            "Data Distribution"
+          ],
+          "task": "Compute descriptive stats for a sales dataset."
+        },
+        {
+          "day": 2,
+          "topic": "Probability",
+          "subtopics": [
+            "Basic Probability",
+            "Conditional Probability",
+            "Bayes Theorem",
+            "Probability Distributions"
+          ],
+          "task": "Solve 5 probability problems."
+        },
+        {
+          "day": 3,
+          "topic": "Hypothesis Testing",
+          "subtopics": [
+            "Null & Alt Hypothesis",
+            "p-value",
+            "t-test",
+            "Chi-Square Test"
+          ],
+          "task": "Test if two groups have significantly different means."
+        },
+        {
+          "day": 4,
+          "topic": "Correlation & Regression",
+          "subtopics": [
+            "Pearson Correlation",
+            "Spearman Correlation",
+            "Linear Regression",
+            "R-Squared"
+          ],
+          "task": "Find correlation between marketing spend and revenue."
+        },
+        {
+          "day": 5,
+          "topic": "Statistical Inference",
+          "subtopics": [
+            "Confidence Intervals",
+            "Central Limit Theorem",
+            "ANOVA",
+            "A/B Testing"
+          ],
+          "task": "Design an A/B test for a website feature."
+        }
+      ]
+    },
+    "Power BI": {
+      "id": "powerbi",
+      "title": "Power BI",
+      "icon": "📊",
+      "totalDays": 5,
+      "days": [
+        {
+          "day": 1,
+          "topic": "Power BI Basics",
+          "subtopics": [
+            "Power BI Interface",
+            "Importing Data",
+            "Data Types",
+            "Power Query Editor"
+          ],
+          "task": "Import and clean a CSV file in Power BI."
+        },
+        {
+          "day": 2,
+          "topic": "Data Modeling",
+          "subtopics": [
+            "Relationships",
+            "Star Schema",
+            "Fact & Dimension Tables",
+            "Cardinality"
+          ],
+          "task": "Build a data model with 3 tables."
+        },
+        {
+          "day": 3,
+          "topic": "DAX Basics",
+          "subtopics": [
+            "Calculated Columns",
+            "Measures",
+            "CALCULATE",
+            "FILTER Function"
+          ],
+          "task": "Create 5 DAX measures for a sales report."
+        },
+        {
+          "day": 4,
+          "topic": "Visualizations",
+          "subtopics": [
+            "Bar & Line Charts",
+            "Maps",
+            "KPI Cards",
+            "Slicers & Filters"
+          ],
+          "task": "Build a 3-page sales dashboard."
+        },
+        {
+          "day": 5,
+          "topic": "Advanced Features",
+          "subtopics": [
+            "Row-Level Security",
+            "Bookmarks",
+            "Drill-Through",
+            "Publishing Reports"
+          ],
+          "task": "Publish a complete analytics report."
+        }
+      ]
+    }
+  },
+  "quizBank": {
+    "Excel": [
+      {
+        "q": "Which function returns the largest value in a range?",
+        "options": [
+          "MIN()",
+          "SUM()",
+          "MAX()",
+          "AVG()"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does VLOOKUP stand for?",
+        "options": [
+          "Vertical Lookup",
+          "Variable Lookup",
+          "Value Lookup",
+          "Virtual Lookup"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Which symbol starts every formula in Excel?",
+        "options": [
+          "#",
+          "=",
+          "$",
+          "@"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is used to fix a cell reference?",
+        "options": [
+          "&",
+          "#",
+          "$",
+          "%"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which chart type is best for showing parts of a whole?",
+        "options": [
+          "Bar Chart",
+          "Line Chart",
+          "Pie Chart",
+          "Scatter Plot"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which function counts cells with numbers?",
+        "options": [
+          "COUNTA()",
+          "COUNT()",
+          "COUNTIF()",
+          "COUNTBLANK()"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does the IF function return?",
+        "options": [
+          "A number",
+          "A date",
+          "A value based on condition",
+          "A text"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is a Pivot Table used for?",
+        "options": [
+          "Drawing charts",
+          "Summarizing data",
+          "Formatting cells",
+          "Writing macros"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which shortcut saves an Excel file?",
+        "options": [
+          "Ctrl+P",
+          "Ctrl+S",
+          "Ctrl+N",
+          "Ctrl+Z"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "CONCATENATE joins:",
+        "options": [
+          "Numbers",
+          "Dates",
+          "Text strings",
+          "Formulas"
+        ],
+        "answer": 2
+      }
+    ],
+    "SQL": [
+      {
+        "q": "Which SQL command retrieves data?",
+        "options": [
+          "INSERT",
+          "SELECT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does WHERE clause do?",
+        "options": [
+          "Sorts results",
+          "Filters rows",
+          "Groups rows",
+          "Joins tables"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which JOIN returns all rows from the left table?",
+        "options": [
+          "INNER JOIN",
+          "RIGHT JOIN",
+          "LEFT JOIN",
+          "CROSS JOIN"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "GROUP BY is used with:",
+        "options": [
+          "WHERE",
+          "Aggregate Functions",
+          "ORDER BY",
+          "LIMIT"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which keyword removes duplicate rows?",
+        "options": [
+          "UNIQUE",
+          "DISTINCT",
+          "DIFFERENT",
+          "ONLY"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which clause filters grouped results?",
+        "options": [
+          "WHERE",
+          "HAVING",
+          "FILTER",
+          "WHEN"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is a PRIMARY KEY?",
+        "options": [
+          "Any column",
+          "Unique identifier for each row",
+          "A foreign reference",
+          "An index"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which statement adds new records?",
+        "options": [
+          "ADD",
+          "INSERT INTO",
+          "UPDATE",
+          "CREATE"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "ORDER BY sorts in what default order?",
+        "options": [
+          "Descending",
+          "Ascending",
+          "Random",
+          "Alphabetical only"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does COUNT(*) return?",
+        "options": [
+          "Sum of values",
+          "Number of rows",
+          "Average",
+          "Max value"
+        ],
+        "answer": 1
+      }
+    ],
+    "Python": [
+      {
+        "q": "What keyword is used to define a function?",
+        "options": [
+          "function",
+          "func",
+          "def",
+          "define"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does len() function return?",
+        "options": [
+          "Sum of elements",
+          "Length of object",
+          "Last element",
+          "Type of object"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which data type stores key-value pairs?",
+        "options": [
+          "List",
+          "Tuple",
+          "Dictionary",
+          "Set"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which loop runs a fixed number of times?",
+        "options": [
+          "while",
+          "for",
+          "do-while",
+          "repeat"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How do you add an item to a list?",
+        "options": [
+          "list.add()",
+          "list.append()",
+          "list.push()",
+          "list.insert()"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the output of type(3.14)?",
+        "options": [
+          "int",
+          "str",
+          "float",
+          "double"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which library is used for data analysis?",
+        "options": [
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "Seaborn"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does // operator do?",
+        "options": [
+          "Division",
+          "Modulus",
+          "Floor Division",
+          "Power"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which keyword exits a loop early?",
+        "options": [
+          "exit",
+          "stop",
+          "break",
+          "continue"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which function reads a CSV file in Pandas?",
+        "options": [
+          "pd.read_excel()",
+          "pd.read_csv()",
+          "pd.load_csv()",
+          "pd.import_csv()"
+        ],
+        "answer": 1
+      }
+    ],
+    "ML": [
+      {
+        "q": "What is Overfitting?",
+        "options": [
+          "Model performs well on test data",
+          "Model memorizes training data",
+          "Model is too simple",
+          "Low bias"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which algorithm is used for regression?",
+        "options": [
+          "K-Means",
+          "Decision Tree",
+          "Linear Regression",
+          "KNN"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does train/test split do?",
+        "options": [
+          "Splits features",
+          "Divides data for training and evaluation",
+          "Merges datasets",
+          "Normalizes data"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which metric is used for classification?",
+        "options": [
+          "MSE",
+          "RMSE",
+          "Accuracy",
+          "R-Squared"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is a feature?",
+        "options": [
+          "Output variable",
+          "Input variable",
+          "A data point",
+          "A model"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "K-Means is a type of:",
+        "options": [
+          "Supervised Learning",
+          "Reinforcement Learning",
+          "Unsupervised Learning",
+          "Semi-supervised"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does PCA stand for?",
+        "options": [
+          "Principal Component Analysis",
+          "Primary Cluster Algorithm",
+          "Predictive Clustering Approach",
+          "Pattern Classification Algorithm"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Which library provides ML tools in Python?",
+        "options": [
+          "Pandas",
+          "NumPy",
+          "scikit-learn",
+          "Matplotlib"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is the purpose of cross-validation?",
+        "options": [
+          "Speed up training",
+          "Reliable model evaluation",
+          "Data cleaning",
+          "Feature engineering"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Random Forest is an ensemble of:",
+        "options": [
+          "Neural Networks",
+          "SVMs",
+          "Decision Trees",
+          "Regressions"
+        ],
+        "answer": 2
+      }
+    ],
+    "Statistics": [
+      {
+        "q": "What does the mean represent?",
+        "options": [
+          "Most frequent value",
+          "Middle value",
+          "Average value",
+          "Range"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is a p-value below 0.05 considered?",
+        "options": [
+          "Not significant",
+          "Statistically significant",
+          "Inconclusive",
+          "Error"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What does standard deviation measure?",
+        "options": [
+          "Central value",
+          "Spread of data",
+          "Highest value",
+          "Probability"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Correlation coefficient ranges between:",
+        "options": [
+          "0 and 1",
+          "-1 and 0",
+          "-1 and 1",
+          "0 and 100"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is a null hypothesis?",
+        "options": [
+          "Alternative claim",
+          "Statement of no effect",
+          "True hypothesis",
+          "Proven fact"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Mode is:",
+        "options": [
+          "Average",
+          "Middle value",
+          "Most frequent value",
+          "Range"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Which test compares means of two groups?",
+        "options": [
+          "Chi-Square",
+          "ANOVA",
+          "t-test",
+          "F-test"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does R-squared indicate?",
+        "options": [
+          "Model error",
+          "Variance explained by model",
+          "Number of features",
+          "Training time"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "A/B Testing is used to:",
+        "options": [
+          "Train models",
+          "Compare two versions",
+          "Visualize data",
+          "Clean data"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bayes Theorem updates:",
+        "options": [
+          "Sample size",
+          "Prior probability",
+          "Standard deviation",
+          "Variance"
+        ],
+        "answer": 1
+      }
+    ],
+    "Power BI": [
+      {
+        "q": "What does DAX stand for?",
+        "options": [
+          "Data Access eXpression",
+          "Data Analysis Expressions",
+          "Dynamic Analytical eXtensions",
+          "Data Action eXpressions"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is a Slicer in Power BI?",
+        "options": [
+          "A chart type",
+          "A filter control",
+          "A data source",
+          "A measure"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which view shows relationships between tables?",
+        "options": [
+          "Report View",
+          "Data View",
+          "Model View",
+          "Transform View"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "CALCULATE function is used to:",
+        "options": [
+          "Add columns",
+          "Modify filter context",
+          "Import data",
+          "Create visuals"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is Row-Level Security?",
+        "options": [
+          "Sorting rows",
+          "Restricting data access by user",
+          "Filtering columns",
+          "Encrypting files"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Power Query is used for:",
+        "options": [
+          "Visualization",
+          "Data transformation",
+          "DAX calculations",
+          "Publishing reports"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "A Fact table contains:",
+        "options": [
+          "Descriptive data",
+          "Measurable metrics",
+          "Dates only",
+          "Employee info"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Drill-through allows you to:",
+        "options": [
+          "Drill into detail from a visual",
+          "Export data",
+          "Create calculated columns",
+          "Schedule refresh"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What is a KPI visual?",
+        "options": [
+          "A map chart",
+          "A performance indicator metric",
+          "A table",
+          "A slicer"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Star Schema has a central:",
+        "options": [
+          "Dimension table",
+          "Fact table",
+          "Bridge table",
+          "Lookup table"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "interviewQuestions": {
+    "data-analytics": {
+      "SQL": [
+        {
+          "q": "What is a primary key?",
+          "a": "A primary key is a unique identifier for each record in a table. It ensures no duplicate or NULL values."
+        },
+        {
+          "q": "What is the difference between INNER JOIN and LEFT JOIN?",
+          "a": "INNER JOIN returns only matching rows from both tables. LEFT JOIN returns all rows from the left table and matched rows from the right."
+        },
+        {
+          "q": "What is GROUP BY?",
+          "a": "GROUP BY groups rows with the same values into summary rows, often used with aggregate functions like COUNT, SUM, AVG."
+        },
+        {
+          "q": "What is the difference between WHERE and HAVING?",
+          "a": "WHERE filters rows before grouping; HAVING filters groups after the GROUP BY clause."
+        },
+        {
+          "q": "Explain DISTINCT keyword.",
+          "a": "DISTINCT removes duplicate rows from query results, returning only unique values."
+        }
+      ],
+      "Excel": [
+        {
+          "q": "What is VLOOKUP and when do you use it?",
+          "a": "VLOOKUP searches for a value in the first column of a range and returns a value from another column. Used for merging data from different tables."
+        },
+        {
+          "q": "What is the difference between relative and absolute cell reference?",
+          "a": "Relative references change when copied (A1). Absolute references stay fixed using $ sign ($A$1)."
+        },
+        {
+          "q": "What is a Pivot Table?",
+          "a": "A Pivot Table summarizes and analyzes large datasets by grouping, filtering, and aggregating data dynamically."
+        },
+        {
+          "q": "What is INDEX-MATCH?",
+          "a": "INDEX-MATCH is more flexible than VLOOKUP. It can look left, handles column insertions, and is faster on large datasets."
+        },
+        {
+          "q": "Explain Conditional Formatting.",
+          "a": "Conditional Formatting applies formatting to cells based on their values or formulas, making patterns and trends visually clear."
+        }
+      ],
+      "Power BI": [
+        {
+          "q": "What is DAX?",
+          "a": "DAX (Data Analysis Expressions) is a formula language used in Power BI to create calculated columns, measures, and tables."
+        },
+        {
+          "q": "Explain Star Schema.",
+          "a": "A Star Schema has a central Fact table connected to multiple Dimension tables. It is optimized for analytical queries."
+        },
+        {
+          "q": "What is Row-Level Security (RLS)?",
+          "a": "RLS restricts data access for specific users by defining roles and DAX filters on tables."
+        },
+        {
+          "q": "Measure vs calculated column?",
+          "a": "A measure is calculated at query time and works with filter context. A calculated column is computed row by row during data refresh."
+        },
+        {
+          "q": "What is Power Query?",
+          "a": "Power Query is a data transformation engine in Power BI used to clean, shape, and load data before analysis."
+        }
+      ],
+      "Statistics": [
+        {
+          "q": "What is the difference between mean, median, and mode?",
+          "a": "Mean is the average, median is the middle value when sorted, and mode is the most frequent value in a dataset."
+        },
+        {
+          "q": "What is a p-value?",
+          "a": "A p-value measures the probability of observing results at least as extreme as the current results, assuming the null hypothesis is true. A p-value < 0.05 is typically statistically significant."
+        },
+        {
+          "q": "Explain correlation vs causation.",
+          "a": "Correlation means two variables move together. Causation means one variable directly causes the change in another. Correlation does not imply causation."
+        },
+        {
+          "q": "What is a confidence interval?",
+          "a": "A confidence interval is a range of values that likely contains the true population parameter with a given probability (e.g., 95%)."
+        },
+        {
+          "q": "What is A/B Testing?",
+          "a": "A/B Testing is a controlled experiment comparing two versions (A and B) to determine which performs better based on a specific metric."
+        }
+      ]
+    },
+    "data-science": {
+      "Python": [
+        {
+          "q": "What is the difference between a list and a tuple?",
+          "a": "A list is mutable (can be changed); a tuple is immutable. Tuples are faster and used for fixed data."
+        },
+        {
+          "q": "What are lambda functions?",
+          "a": "Lambda functions are anonymous, single-expression functions defined with the lambda keyword. Example: lambda x: x*2."
+        },
+        {
+          "q": "Explain Pandas groupby.",
+          "a": "groupby() groups data based on one or more columns and allows applying aggregate functions like sum, mean, count to each group."
+        },
+        {
+          "q": "What is a decorator in Python?",
+          "a": "A decorator is a function that wraps another function to extend its behavior without modifying it. Defined with @decorator_name syntax."
+        },
+        {
+          "q": "What is list comprehension?",
+          "a": "List comprehension is a concise way to create lists: [expression for item in iterable if condition]. It is faster and more readable."
+        }
+      ],
+      "ML": [
+        {
+          "q": "What is Overfitting and how do you prevent it?",
+          "a": "Overfitting is when a model memorizes training data and fails on new data. Prevention: regularization, cross-validation, more training data, dropout."
+        },
+        {
+          "q": "Explain bias-variance tradeoff.",
+          "a": "Bias is error from wrong assumptions; variance is error from sensitivity to small fluctuations. High bias = underfitting; high variance = overfitting."
+        },
+        {
+          "q": "What is cross-validation?",
+          "a": "Cross-validation evaluates model performance by splitting data into k folds, training on k-1 folds and testing on the remaining fold, repeated k times."
+        },
+        {
+          "q": "Supervised vs unsupervised learning?",
+          "a": "Supervised learning uses labeled data to learn a mapping function. Unsupervised learning finds hidden patterns in unlabeled data."
+        },
+        {
+          "q": "What is gradient descent?",
+          "a": "Gradient descent is an optimization algorithm that minimizes the loss function by iteratively moving in the direction of steepest descent."
+        }
+      ],
+      "Statistics": [
+        {
+          "q": "What is the Central Limit Theorem?",
+          "a": "CLT states that the sampling distribution of the mean approaches a normal distribution as sample size increases, regardless of the population distribution."
+        },
+        {
+          "q": "What is ANOVA?",
+          "a": "ANOVA (Analysis of Variance) tests whether means of three or more groups are significantly different from each other."
+        },
+        {
+          "q": "Explain Type I and Type II errors.",
+          "a": "Type I error is rejecting a true null hypothesis (false positive). Type II error is failing to reject a false null hypothesis (false negative)."
+        },
+        {
+          "q": "What is Bayesian statistics?",
+          "a": "Bayesian statistics uses prior knowledge and updates beliefs with new evidence using Bayes Theorem to calculate posterior probabilities."
+        },
+        {
+          "q": "Parametric vs non-parametric tests?",
+          "a": "Parametric tests assume data follows a specific distribution (usually normal). Non-parametric tests make no distribution assumptions."
+        }
+      ],
+      "SQL": [
+        {
+          "q": "What is a subquery?",
+          "a": "A subquery is a query nested inside another query. It can appear in SELECT, FROM, or WHERE clauses."
+        },
+        {
+          "q": "Explain window functions.",
+          "a": "Window functions perform calculations across a set of rows related to the current row. Examples: ROW_NUMBER(), RANK(), LAG(), LEAD()."
+        },
+        {
+          "q": "What is normalization?",
+          "a": "Normalization organizes database tables to reduce redundancy and improve data integrity. Normal forms: 1NF, 2NF, 3NF, BCNF."
+        },
+        {
+          "q": "What is an index and why is it used?",
+          "a": "An index is a data structure that speeds up data retrieval operations, allowing the database to find rows without scanning the entire table."
+        },
+        {
+          "q": "What is a CTE?",
+          "a": "A CTE (Common Table Expression) is a named temporary result set defined with the WITH clause. It improves readability and can be referenced multiple times."
+        }
+      ]
+    }
+  },
+  "mockTestQuestions": [
+    {
+      "skill": "SQL",
+      "q": "Which SQL clause is used to filter records?",
+      "options": [
+        "GROUP BY",
+        "ORDER BY",
+        "WHERE",
+        "HAVING"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "SQL",
+      "q": "What does DISTINCT do in SQL?",
+      "options": [
+        "Sorts results",
+        "Removes duplicates",
+        "Limits rows",
+        "Joins tables"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "Which JOIN returns all matching rows from both tables?",
+      "options": [
+        "LEFT JOIN",
+        "INNER JOIN",
+        "OUTER JOIN",
+        "CROSS JOIN"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "What is the result of COUNT(*)?",
+      "options": [
+        "Sum of column",
+        "Number of non-null rows",
+        "Total row count",
+        "Average"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Python",
+      "q": "Which method adds an element to a list?",
+      "options": [
+        "add()",
+        "insert()",
+        "append()",
+        "push()"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Python",
+      "q": "What is the output of 10 % 3?",
+      "options": [
+        "3",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Python",
+      "q": "Which library is used for numerical computation?",
+      "options": [
+        "Pandas",
+        "Matplotlib",
+        "NumPy",
+        "Seaborn"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Python",
+      "q": "What does the range(5) function produce?",
+      "options": [
+        "1 to 5",
+        "0 to 5",
+        "0 to 4",
+        "1 to 4"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "ML",
+      "q": "Which algorithm is best for binary classification?",
+      "options": [
+        "Linear Regression",
+        "K-Means",
+        "Logistic Regression",
+        "PCA"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "ML",
+      "q": "What is the purpose of training data?",
+      "options": [
+        "Testing model",
+        "Teaching the model",
+        "Validating model",
+        "Deploying model"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "Which is an unsupervised learning algorithm?",
+      "options": [
+        "Linear Regression",
+        "K-Means",
+        "Decision Tree",
+        "SVM"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "What does regularization do?",
+      "options": [
+        "Speeds up training",
+        "Prevents overfitting",
+        "Increases model complexity",
+        "Removes features"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "What is the median of [3, 5, 7, 9, 11]?",
+      "options": [
+        "5",
+        "7",
+        "9",
+        "6"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "Which test checks independence of categorical variables?",
+      "options": [
+        "t-test",
+        "ANOVA",
+        "Chi-Square",
+        "F-test"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Statistics",
+      "q": "What does a p-value of 0.03 indicate?",
+      "options": [
+        "Not significant",
+        "Significant at 5% level",
+        "High variance",
+        "Low correlation"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "What is variance?",
+      "options": [
+        "Average of data",
+        "Square of standard deviation",
+        "Range of data",
+        "Median"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "Which function finds the position of a value?",
+      "options": [
+        "VLOOKUP",
+        "MATCH",
+        "INDEX",
+        "FIND"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "What does SUMIF do?",
+      "options": [
+        "Sums all values",
+        "Sums values meeting a condition",
+        "Counts values",
+        "Finds average"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "Which shortcut auto-fills a formula down?",
+      "options": [
+        "Ctrl+D",
+        "Ctrl+F",
+        "Ctrl+C",
+        "Ctrl+V"
+      ],
+      "answer": 0
+    },
+    {
+      "skill": "Excel",
+      "q": "What is a named range?",
+      "options": [
+        "A large range",
+        "A range with a custom name",
+        "A filtered range",
+        "A sorted range"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "What does HAVING clause filter?",
+      "options": [
+        "Individual rows",
+        "Columns",
+        "Grouped results",
+        "Joined tables"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Python",
+      "q": "Which keyword is used for exception handling?",
+      "options": [
+        "catch",
+        "try",
+        "handle",
+        "error"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "What is the accuracy formula?",
+      "options": [
+        "TP/(TP+FP)",
+        "(TP+TN)/(TP+TN+FP+FN)",
+        "TP/(TP+FN)",
+        "TN/(TN+FP)"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "What does the standard error measure?",
+      "options": [
+        "Dataset variance",
+        "Accuracy of sample mean",
+        "Model error",
+        "Bias"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "Which command removes all rows from a table quickly?",
+      "options": [
+        "DELETE",
+        "DROP",
+        "TRUNCATE",
+        "REMOVE"
+      ],
+      "answer": 2
+    },
+    {
+      "skill": "Python",
+      "q": "What is a generator function?",
+      "options": [
+        "Returns a list",
+        "Uses yield to produce values",
+        "Creates a class",
+        "Deletes memory"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "What is the ROC curve used for?",
+      "options": [
+        "Feature importance",
+        "Model comparison for classification",
+        "Data visualization",
+        "Hyperparameter tuning"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "What is the law of large numbers?",
+      "options": [
+        "Small samples are accurate",
+        "Sample mean approaches population mean with more samples",
+        "Variance grows with size",
+        "p-value decreases with size"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "Which Excel function counts cells that meet a criteria?",
+      "options": [
+        "COUNT",
+        "COUNTIF",
+        "COUNTA",
+        "COUNTBLANK"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "What is feature engineering?",
+      "options": [
+        "Removing features",
+        "Creating new features from existing data",
+        "Scaling features",
+        "Selecting features"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "What is a Foreign Key?",
+      "options": [
+        "Primary identifier",
+        "A key from another table used to establish relationships",
+        "An indexed column",
+        "A unique constraint"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Python",
+      "q": "Which method removes whitespace from both ends of a string?",
+      "options": [
+        "strip()",
+        "trim()",
+        "clean()",
+        "remove()"
+      ],
+      "answer": 0
+    },
+    {
+      "skill": "Statistics",
+      "q": "What is skewness?",
+      "options": [
+        "Spread of data",
+        "Measure of asymmetry of distribution",
+        "Average deviation",
+        "Frequency count"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "What does IFERROR do?",
+      "options": [
+        "Checks for errors",
+        "Returns a value if error, else normal result",
+        "Throws an error",
+        "Converts errors to 0"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "What is hyperparameter tuning?",
+      "options": [
+        "Changing training data",
+        "Optimizing model configuration settings",
+        "Removing outliers",
+        "Adding layers"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "SQL",
+      "q": "What does COALESCE return?",
+      "options": [
+        "NULL value",
+        "First non-NULL value",
+        "Last value",
+        "Count of nulls"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Python",
+      "q": "What is list comprehension?",
+      "options": [
+        "A built-in function",
+        "A concise way to create lists",
+        "A class method",
+        "A sorting technique"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Statistics",
+      "q": "What does the Central Limit Theorem state?",
+      "options": [
+        "Small samples follow normal distribution",
+        "Sample means approach normal distribution with large n",
+        "All distributions are normal",
+        "Variance decreases with n"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "Excel",
+      "q": "What does the TEXT function do?",
+      "options": [
+        "Converts text to number",
+        "Formats a number as text",
+        "Concatenates text",
+        "Removes spaces"
+      ],
+      "answer": 1
+    },
+    {
+      "skill": "ML",
+      "q": "Which metric is most suitable for imbalanced classification?",
+      "options": [
+        "Accuracy",
+        "F1 Score",
+        "MSE",
+        "R-Squared"
+      ],
+      "answer": 1
+    }
+  ]
+}
